@@ -102,6 +102,13 @@ body {
     box-shadow: 10px 10px 10px hsl(179,63%,39%);
 }
 
+.boxbl button:hover {
+    background-color: white;
+    color: hsl(71, 73%, 54%);
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s, font-weigth 0.3s;
+}
+
 .boxbr {
     background-color: hsl(179, 47%, 52%);
     padding: 40px;
