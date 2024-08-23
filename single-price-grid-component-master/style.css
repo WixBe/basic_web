@@ -1,0 +1,114 @@
+.attribution {
+     font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    background-color: hsl(206, 47%, 93%);
+    align-items: center;
+    justify-content: center;
+    font-family: Karla;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main {
+    align-self: center;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px hsl(206,45%,89%);
+    width: 60vh;
+}
+
+.boxt {
+    background-color: white;
+    padding: 40px;
+}
+
+
+.boxt h1 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+
+.boxt h2 {
+    color: hsl(71, 73%, 54%);
+    font-weight: 500;
+}
+
+.boxt p {
+    opacity: 50%;
+}
+
+.boxb {
+    display: grid;
+    grid-auto-flow: column;
+    color: white;
+}
+
+.boxbl {
+    background-color: hsl(179, 61%, 44%);
+    padding: 40px 40px 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.boxbl h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.boxbl p {
+    font-weight: 300;
+}
+
+.price-box {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.boxbl > * {
+    padding-left: 1.4rem;
+}
+
+.price {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.per_month {
+    opacity: 60%;
+    font-weight: 200;
+    padding-left: 10px;
+}
+
+.boxbl button {
+    background-color: hsl(71, 73%, 54%);
+    border: 0;
+    color: white;
+    border-radius: 0.4rem;
+    width: 24vh;
+    height: 6vh;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    align-self: center;
+    box-shadow: 10px 10px 10px hsl(179,63%,39%);
+}
+
+.boxbr {
+    background-color: hsl(179, 47%, 52%);
+    padding: 40px;
+}
+
+
+.boxbr li {
+    font-weight: 200;
+    line-height: 1.5rem;
+}
