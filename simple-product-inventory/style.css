@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+body {
+    font-family: 'New Amsterdam', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    background: hsl(268, 35%, 65%);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: hsl(268, 35%, 60%);
+}
+
+.form {
+    align-items: center;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    border-style: groove;
+}
+
+@media (max-width: 768px) {
+    .form {
+        flex-direction: column;
+    }
+
+    .main {
+        flex-direction: row;
+    }
+}
+
+.form input, select {
+    border-radius: 0.3rem;
+}
+
+.form h3 {
+    color: white;
+}
+
+.form > * {
+    padding: 1rem;
+}
+
+.add button {
+    height: 2rem;
+    width: 10rem;
+    border-radius: 0.3rem;
+    background-color: gray;
+    color: white;
+}
+
+.table {
+    border-style: groove;
+    align-self: center;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    width: 60rem;
+}
+
+.table td  {
+    padding: 0.4rem 2rem;
+    
+}
+
+td > button {
+    background-color: gray;
+    border-radius: 0.3rem;
+    color: white;
+    overflow: hidden;
+    border: 5px;
+    border-color: black;
+    padding-right: 10px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Inventory</title>
+</head>
+
+<body>
+    <div class="main">
+        <form class="form" method="post">
+            <div class="id">
+                <h3>ID</h3>
+                <input type="text" name="id" placeholder="id">
+            </div>
+            <div class="name">
+                <h3>Name</h3>
+                <input type="text" name="name"  placeholder="name">
+            </div>
+            <div class="price">
+                <h3>Price</h3>
+                <input type="text" name="price" placeholder="price">
+            </div>
+            <div class="type">
+                <h3>Type</h3>
+                <select name="type" id="type">
+                    <option value="" selected disabled>Select type</option>
+                    <option value="grocery">Grocery</option>
+                    <option value="textile">Textile</option>
+                </select>
+            </div>
+            <div class="add">
+                <button type="submit">Add</button>
+            </div>
+        </form>
+
+        <h2>Products</h2>
+        <div class="tab">
+            <Table class="table" border>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Type</th>
+                        <th>Options</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </Table>
+        </div>
+    </div>
+</body>
+
+</html>
